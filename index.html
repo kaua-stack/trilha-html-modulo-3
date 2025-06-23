@@ -1,44 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>História da Internet - Wikipédia Melhorada</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
+  <!-- Cabeçalho com logotipo -->
+  <header>
+    <div class="logo">
+      <img src="assets/images/logo.png" alt="Logo do site" width="200" />
     </div>
+  </header>
 
-    <div class="bar"></div>
+  <!-- Barra decorativa -->
+  <div class="bar"></div>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+  <!-- Conteúdo principal dividido em 3 colunas -->
+  <main class="content">
 
-        <div class="main">
-            
-        </div>
+    <!-- Barra lateral com índice -->
+    <aside class="sidebar">
+      <h2>Seções</h2>
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#origem">Origem da Internet</a></li>
+        <li><a href="#evolucao">Evolução da Internet</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#referencias">Referências</a></li>
+      </ul>
+    </aside>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+    <!-- Conteúdo principal -->
+    <section class="main">
 
-    <div class="footer">
+      <article>
+        <h1 id="introducao">História da Internet</h1>
+        <p>A <strong>Internet</strong> revolucionou a forma como nos comunicamos, acessamos informações e vivemos. Desde seus primeiros passos como um projeto militar até se tornar uma rede global, sua evolução é fascinante.</p>
+      </article>
 
-    </div>
+      <article>
+        <h2 id="origem">Origem da Internet</h2>
+        <p>A origem da Internet remonta ao final da década de 1960, com o projeto <abbr title="Advanced Research Projects Agency Network">ARPANET</abbr> criado pelo Departamento de Defesa dos Estados Unidos.</p>
+        <blockquote cite="https://pt.wikipedia.org/wiki/ARPANET">
+          "A ARPANET foi a primeira rede a implementar o protocolo TCP/IP, base da internet moderna."
+        </blockquote>
+      </article>
+
+      <article>
+        <h2 id="evolucao">Evolução da Internet</h2>
+        <p>Nos anos 90, a Internet passou a ser comercializada e acessível ao público. O surgimento dos navegadores como o <i>Netscape</i> e, mais tarde, o <strong>Google Chrome</strong>, transformou a experiência de navegação.</p>
+        <p>Hoje temos dispositivos conectados por toda parte, de <u>celulares</u> a <mark>geladeiras inteligentes</mark>.</p>
+      </article>
+
+      <article>
+        <h2 id="curiosidades">Curiosidades</h2>
+        <ul>
+          <li>A primeira mensagem enviada na ARPANET foi “LO”.</li>
+          <li>Mais de 60% do tráfego da internet hoje vem de dispositivos móveis.</li>
+          <li>O <del>Internet Explorer</del> foi descontinuado em 2022.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2 id="referencias">Referências</h2>
+        <ul>
+          <li><a href="https://pt.wikipedia.org/wiki/Internet" target="_blank">Wikipedia - Internet</a></li>
+          <li><a href="https://www.techtudo.com.br" target="_blank">TechTudo</a></li>
+          <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a></li>
+        </ul>
+        <p><small>Última atualização em 23/06/2025</small></p>
+      </article>
+
+    </section>
+
+    <!-- Navegação de âncoras à direita -->
+    <nav class="anchors">
+      <h2>Neste Artigo</h2>
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#origem">Origem da Internet</a></li>
+        <li><a href="#evolucao">Evolução</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#referencias">Referências</a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>Desenvolvido por Kauã Alves • Projeto fictício para fins educacionais • 2025</p>
+  </footer>
+
 </body>
 </html>
